@@ -1,7 +1,6 @@
 # Hi, I'm Ishaan
 
 Summer Intern @ Chipspirit Technologies | ECE Undergrad @ NIT
-\
 
 ## What I Do
 
@@ -36,8 +35,6 @@ the hardware wrapper to classify the full 50-class ESC-50 dataset utilizing para
 achieving 98 per-cent accuracy on the MNIST dataset. Leveraged hardware acceleration to deliver an inference latency
 of 8.85 mu/s image, resulting in a 150x throughput improvement compared to CPU-based implementations.
 
-**FPGA based button debouncer**
-
 **8-point FFT Accelerator**
 * Developed and implemented an 8 point Fast Fourier Transform Accelerator on pure RTL, handling various twiddle factor cases by pooling them accurately.
   
@@ -46,7 +43,7 @@ of 8.85 mu/s image, resulting in a 150x throughput improvement compared to CPU-b
 multiplier yielding a 106-bit mantissa product, an 11-bit exponent adder with 1023 bias subtraction, and XOR-based
 sign logic. Engineered a robust hardware exception-handling unit that systematically classifies inputs and resolves critical
 IEEE-754 edge cases, ensuring mathematical stability for Not-a-Number (NaN), Infinity, zero, overflow, and underflow.
-*Optimized the critical path for final product generation by routing the normalized outputs and exception flags through a
+* Optimized the critical path for final product generation by routing the normalized outputs and exception flags through a
 custom 5-to-1 multiplexer , ensuring deterministic data selection with zero latch inference.
 
 ---
